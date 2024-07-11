@@ -22,7 +22,8 @@ with tab1:
 with tab3:
 
     sy.space(lines=3)
-    st.text("Got any suggestions!? Email us at japreocorp@gmail.com or follow us on X at JapreoPost.")
+    st.text("Got any suggestions!? Email us at japreocorp@gmail.com")
+    st.text("or follow us on X at JapreoPost.")
 
 
 with tab2:
