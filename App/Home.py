@@ -23,7 +23,7 @@ with tab2:
     sy.space(lines=3)
     st.header("Tutorial")
     sy.space(lines=2)
-    tab1,tab2,tab3,tab4,tab5 = st.tabs(["Step 1", "Step 2", "Step 3", "Step 4", "Camera"])
+    tab1,tab2,tab3,tab4,tab5 = st.tabs(["Step 1", "Step 2", "Step 3", "Step 4", "Important"])
 
 
     with tab1:
