@@ -25,6 +25,12 @@ with tab2:
     sy.space(lines=2)
     tab1,tab2,tab3,tab4,tab5 = st.tabs(["Step 1", "Step 2", "Step 3", "Step 4", "Important"])
 
+with tab3:
+
+    sy.space(lines=3)
+    st.text("Got any suggestions!? Email us at japreocorp@gmail.com")
+    st.text("with proper form  result.")
+
 
     with tab1:
 
