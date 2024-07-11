@@ -4,7 +4,7 @@ import streamlit as st
 def Squats_Starting_Message(): 
 
 
- st.audio('App\AudioCoach\Messages\Starting_Squats_Message.mp3',  autoplay= True)
+ st.audio('App\AudioCoach\Messages\Starting_Squats_Message.mp3',  autoplay= False)
 
 
 
