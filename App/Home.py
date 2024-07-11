@@ -23,7 +23,6 @@ with tab3:
 
     sy.space(lines=3)
     st.text("Got any suggestions!? Email us at japreocorp@gmail.com")
-    st.text("with proper form  result.")
 
 
 with tab2:
