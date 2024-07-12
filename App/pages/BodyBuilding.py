@@ -7,7 +7,7 @@ from AudioCoach.Messages.Message_Player import Bent_Over_BackRows_Starting_Messa
 from AudioCoach.Messages.Message_Player import Arnold_Shoulder_Press_Starting_Message
 
 
-from Exercises.Biceps.Bicep_Curls import BicepCurls
+#from Exercises.Biceps.Bicep_Curls import BicepCurls
 from Exercises.Biceps.Hammer_Curls import HammerCurls
 from Exercises.Biceps.Spider_Curls import SpiderCurls
 from Exercises.Biceps.Drag_Curls import DragCurls
