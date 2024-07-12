@@ -1,30 +1,30 @@
 import streamlit as st
 import streamlit_space as sy
-from pages.AudioCoach.Messages.Message_Player import Squats_Starting_Message, Deadlift_Starting_Message, Hamstring_Curls_Starting_Message, Leg_Lunges_Starting_Message
-from pages.AudioCoach.Messages.Message_Player import Bicep_Curls_Starting_Message, Drag_Curls_Starting_Message, Hammer_Curls_Starting_Message, Spider_Curls_Starting_Message
-from pages.AudioCoach.Messages.Message_Player import Pushups_Starting_Message, Bench_Press_Starting_Message, Dumbbbell_Chest_Flys_Starting_Message
-from pages.AudioCoach.Messages.Message_Player import Bent_Over_BackRows_Starting_Message, Lat_Pulldown_Starting_Message
-from pages.AudioCoach.Messages.Message_Player import Arnold_Shoulder_Press_Starting_Message
+from AudioCoach.Messages.Message_Player import Squats_Starting_Message, Deadlift_Starting_Message, Hamstring_Curls_Starting_Message, Leg_Lunges_Starting_Message
+from AudioCoach.Messages.Message_Player import Bicep_Curls_Starting_Message, Drag_Curls_Starting_Message, Hammer_Curls_Starting_Message, Spider_Curls_Starting_Message
+from AudioCoach.Messages.Message_Player import Pushups_Starting_Message, Bench_Press_Starting_Message, Dumbbbell_Chest_Flys_Starting_Message
+from AudioCoach.Messages.Message_Player import Bent_Over_BackRows_Starting_Message, Lat_Pulldown_Starting_Message
+from AudioCoach.Messages.Message_Player import Arnold_Shoulder_Press_Starting_Message
 
 
-from pages.Exercises.Biceps.Bicep_Curls import BicepCurls
-from pages.Exercises.Biceps.Hammer_Curls import HammerCurls
-from pages.Exercises.Biceps.Spider_Curls import SpiderCurls
-from pages.Exercises.Biceps.Drag_Curls import DragCurls
+from Exercises.Biceps.Bicep_Curls import BicepCurls
+from Exercises.Biceps.Hammer_Curls import HammerCurls
+from Exercises.Biceps.Spider_Curls import SpiderCurls
+from Exercises.Biceps.Drag_Curls import DragCurls
 
-from pages.Exercises.Chest.Pushups import Pushups
-from pages.Exercises.Chest.Bench_Press import BenchPress
-from pages.Exercises.Chest.Dumbbell_Chest_Flys import Dumbbell_Chest_Flys
+from Exercises.Chest.Pushups import Pushups
+from Exercises.Chest.Bench_Press import BenchPress
+from Exercises.Chest.Dumbbell_Chest_Flys import Dumbbell_Chest_Flys
 
-from pages.Exercises.Back.LatPulldown import LatPulldown
-from pages.Exercises.Back.BentOver_BackRows import BentOver_Backrows_OverHandGrip
+from Exercises.Back.LatPulldown import LatPulldown
+from Exercises.Back.BentOver_BackRows import BentOver_Backrows_OverHandGrip
 
-from pages.Exercises.Legs.Squats import Squats
-from pages.Exercises.Legs.Hamstring_Curls import HamstringCurls
-from pages.Exercises.Legs.Deadlift import Deadlift
-from pages.Exercises.Legs.LegLunges import LegLunges
+from Exercises.Legs.Squats import Squats
+from Exercises.Legs.Hamstring_Curls import HamstringCurls
+from Exercises.Legs.Deadlift import Deadlift
+from Exercises.Legs.LegLunges import LegLunges
 
-from pages.Exercises.Shoulders.Arnold_ShoulderPress import ArnoldShoulderPress
+from Exercises.Shoulders.Arnold_ShoulderPress import ArnoldShoulderPress
 
 
 import time
