@@ -1,6 +1,6 @@
 gTTS
 mediapipe
 numpy
-opencv-python-headles
+opencv-python-headless
 streamlit
 streamlit_space
