@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit_space as sy
+import cv2
 from AudioCoach.Messages.Message_Player import Squats_Starting_Message, Deadlift_Starting_Message, Hamstring_Curls_Starting_Message, Leg_Lunges_Starting_Message
 from AudioCoach.Messages.Message_Player import Bicep_Curls_Starting_Message, Drag_Curls_Starting_Message, Hammer_Curls_Starting_Message, Spider_Curls_Starting_Message
 from AudioCoach.Messages.Message_Player import Pushups_Starting_Message, Bench_Press_Starting_Message, Dumbbbell_Chest_Flys_Starting_Message
