@@ -1,4 +1,4 @@
-gTTS1
+gTTS
 mediapipe
 numpy
 opencv-python-headles
