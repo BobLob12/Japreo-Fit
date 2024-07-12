@@ -2,8 +2,8 @@ import cv2
 import mediapipe as mp
 import numpy as np
 import time
-from pages.AudioCoach.Messages.Message_Player import Congratulation_Message
-from pages.Rep_SoundEffects.Play_Rep_Sound import Rep_One, Rep_Two, Rep_Three, Rep_Four, Rep_Five, Rep_Six, Rep_Seven, Rep_Eight, Rep_Nine, Rep_Ten, Rep_Eleven, Rep_Twelve
+from AudioCoach.Messages.Message_Player import Congratulation_Message
+from Rep_SoundEffects.Play_Rep_Sound import Rep_One, Rep_Two, Rep_Three, Rep_Four, Rep_Five, Rep_Six, Rep_Seven, Rep_Eight, Rep_Nine, Rep_Ten, Rep_Eleven, Rep_Twelve
 
 
 
