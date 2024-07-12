@@ -228,7 +228,7 @@ if Workout_Selector == LowerBody:
 
   if Start_Button is clicked and Exercise_Selector == Select_Squats :
      
-    Squats_Starting_Message()
+    st.audio('App/AudioCoach/Messages/Starting_Squats_Message.mp3',  autoplay= True)
      
     time.sleep(10)
      
