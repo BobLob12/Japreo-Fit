@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit_space as sy
 import sys
-sys.path.append('Japreo-Fit/App/AudioCoach/Messages')
+sys.path.append('Japreo-Fit/App/AudioCoach/Messages/Message_Player')
 sys.path.append('Japreo-Fit/App/Exercises/Biceps')
 sys.path.append('Japreo-Fit/App/Exercises/Chest')
 sys.path.append('Japreo-Fit/App/Exercises/Back')
