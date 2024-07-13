@@ -1,29 +1,40 @@
 import streamlit as st
 import streamlit_space as sy
-from AudioCoach.Messages.Message_Player import Squats_Starting_Message, Deadlift_Starting_Message, Hamstring_Curls_Starting_Message, Leg_Lunges_Starting_Message
-from AudioCoach.Messages.Message_Player import Bicep_Curls_Starting_Message, Drag_Curls_Starting_Message, Hammer_Curls_Starting_Message, Spider_Curls_Starting_Message
-from AudioCoach.Messages.Message_Player import Pushups_Starting_Message, Bench_Press_Starting_Message, Dumbbbell_Chest_Flys_Starting_Message
-from AudioCoach.Messages.Message_Player import Bent_Over_BackRows_Starting_Message, Lat_Pulldown_Starting_Message
-from AudioCoach.Messages.Message_Player import Arnold_Shoulder_Press_Starting_Message
+import sys
+sys.path.insert(0, 'Japreo-Fit/App/AudioCoach/Messages')
+from Message_Player import Squats_Starting_Message, Deadlift_Starting_Message, Hamstring_Curls_Starting_Message, Leg_Lunges_Starting_Message
+from Messgae_Player import Bicep_Curls_Starting_Message, Drag_Curls_Starting_Message, Hammer_Curls_Starting_Message, Spider_Curls_Starting_Message
+from Message_Player import Pushups_Starting_Message, Bench_Press_Starting_Message, Dumbbbell_Chest_Flys_Starting_Message
+from Message_Player import Bent_Over_BackRows_Starting_Message, Lat_Pulldown_Starting_Message
+from Message_Player import Arnold_Shoulder_Press_Starting_Message
 
 
-#from Exercises.Biceps.Bicep_Curls import BicepCurls
-from Exercises.Biceps.Hammer_Curls import HammerCurls
-from Exercises.Biceps.Spider_Curls import SpiderCurls
-from Exercises.Biceps.Drag_Curls import DragCurls
+sys.path.insert(1, 'Japreo-Fit/App/Exercises/Biceps')
 
-from Exercises.Chest.Pushups import Pushups
-from Exercises.Chest.Bench_Press import BenchPress
-from Exercises.Chest.Dumbbell_Chest_Flys import Dumbbell_Chest_Flys
+from Bicep_Curls import BicepCurls
+from Hammer_Curls import HammerCurls
+from Spider_Curls import SpiderCurls
+from Drag_Curls import DragCurls
 
-from Exercises.Back.LatPulldown import LatPulldown
-from Exercises.Back.BentOver_BackRows import BentOver_Backrows_OverHandGrip
+sys.path.insert(2, 'Japreo-Fit/App/Exercises/Chest')
 
-from Exercises.Legs.Squats import Squats
-from Exercises.Legs.Hamstring_Curls import HamstringCurls
-from Exercises.Legs.Deadlift import Deadlift
-from Exercises.Legs.LegLunges import LegLunges
+from Pushups import Pushups
+from Bench_Press import BenchPress
+from Dumbbell_Chest_Flys import Dumbbell_Chest_Flys
 
+sys.path.insert(3, 'Japreo-Fit/App/Exercises/Back')
+
+from LatPulldown import LatPulldown
+from BentOver_BackRows import BentOver_Backrows_OverHandGrip
+
+sys.path.insert(4, 'Japreo-Fit/App/Exercises/Legs')
+
+from Squats import Squats
+from Hamstring_Curls import HamstringCurls
+from Deadlift import Deadlift
+from LegLunges import LegLunges
+
+sys.path.insert(5, 'Japreo-Fit/App/Exercises/Shoulders')
 from Exercises.Shoulders.Arnold_ShoulderPress import ArnoldShoulderPress
 
 
