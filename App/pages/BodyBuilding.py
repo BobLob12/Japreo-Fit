@@ -983,7 +983,7 @@ if Workout_Selector == UpperBody:
 
   if Start_Button is clicked and Exercise_Selector == Select_Lat_Pulldown:
 
-    Lat_Pulldown_Starting_Message()
+    st.audio('App\pages\AudioCoach\Messages\Starting_Lat_Pulldown_Message.mp3',  autoplay= True)
 
     time.sleep(10)
 
