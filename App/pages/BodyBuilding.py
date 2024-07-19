@@ -7,8 +7,9 @@ sys.path.append('Japreo-Fit/App/Exercises/Chest')
 sys.path.append('Japreo-Fit/App/Exercises/Back')
 sys.path.append('Japreo-Fit/App/Exercises/Legs')
 sys.path.append('Japreo-Fit/App/Exercises/Shoulders')
-import Squats_Starting_Message, Deadlift_Starting_Message, Hamstring_Curls_Starting_Message, Leg_Lunges_Starting_Message
-from Messgae_Player import Bicep_Curls_Starting_Message, Drag_Curls_Starting_Message, Hammer_Curls_Starting_Message, Spider_Curls_Starting_Message
+sys.path.append('Japreo-FITf/App/')
+from Message_Player import Squats_Starting_Message, Deadlift_Starting_Message, Hamstring_Curls_Starting_Message, Leg_Lunges_Starting_Message
+from Message_Player import Bicep_Curls_Starting_Message, Drag_Curls_Starting_Message, Hammer_Curls_Starting_Message, Spider_Curls_Starting_Message
 from Message_Player import Pushups_Starting_Message, Bench_Press_Starting_Message, Dumbbbell_Chest_Flys_Starting_Message
 from Message_Player import Bent_Over_BackRows_Starting_Message, Lat_Pulldown_Starting_Message
 from Message_Player import Arnold_Shoulder_Press_Starting_Message
