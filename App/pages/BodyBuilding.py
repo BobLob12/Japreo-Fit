@@ -268,47 +268,38 @@ if Workout_Selector == UpperBody:
                
                   st.audio('App/pages/Rep_SoundEffects/RepOne.mp3',  autoplay= True)
              
-
                 if counter == 2:
                
                   st.audio('App/pages/Rep_SoundEffects/RepTwo.mp3',  autoplay= True)
  
-
                 if counter == 3:
                
                   st.audio('App/pages/Rep_SoundEffects/RepThree.mp3',  autoplay= True)
              
-
                 if counter == 4:
                
                   st.audio('App/pages/Rep_SoundEffects/RepFour.mp3',  autoplay= True)
               
-
                 if counter == 5:
                
                   st.audio('App/pages/Rep_SoundEffects/RepFive.mp3',  autoplay= True)
-
 
                 if counter == 6:
                
                   st.audio('App/pages/Rep_SoundEffects/RepSix.mp3',  autoplay= True)
 
-                
                 if counter == 7:
                
                  st.audio('App/pages/Rep_SoundEffects/RepSeven.mp3',  autoplay= True)
              
-
                 if counter == 8:
                
                   st.audio('App/pages/Rep_SoundEffects/RepEight.mp3',  autoplay= True)
  
-
                 if counter == 9:
                
                    st.audio('App/pages/Rep_SoundEffects/RepNine.mp3',  autoplay= True)
              
-
                 if counter == 10:
                
                   st.audio('App/pages/Rep_SoundEffects/RepTen.mp3',  autoplay= True)
@@ -346,47 +337,38 @@ if Workout_Selector == UpperBody:
                
                   st.audio('App/pages/Rep_SoundEffects/RepOne.mp3',  autoplay= True)
              
-
                 if counter == 2:
                
                   st.audio('App/pages/Rep_SoundEffects/RepTwo.mp3',  autoplay= True)
  
-
                 if counter == 3:
                
                   st.audio('App/pages/Rep_SoundEffects/RepThree.mp3',  autoplay= True)
              
-
                 if counter == 4:
                
                   st.audio('App/pages/Rep_SoundEffects/RepFour.mp3',  autoplay= True)
               
-
                 if counter == 5:
                
                   st.audio('App/pages/Rep_SoundEffects/RepFive.mp3',  autoplay= True)
-
 
                 if counter == 6:
                
                   st.audio('App/pages/Rep_SoundEffects/RepSix.mp3',  autoplay= True)
 
-                
                 if counter == 7:
                
                  st.audio('App/pages/Rep_SoundEffects/RepSeven.mp3',  autoplay= True)
              
-
                 if counter == 8:
                
                   st.audio('App/pages/Rep_SoundEffects/RepEight.mp3',  autoplay= True)
  
-
                 if counter == 9:
                
                    st.audio('App/pages/Rep_SoundEffects/RepNine.mp3',  autoplay= True)
              
-
                 if counter == 10:
                
                   st.audio('App/pages/Rep_SoundEffects/RepTen.mp3',  autoplay= True)
