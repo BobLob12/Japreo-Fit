@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit_space as sy
-import sys
+from streamlit_webrtc import webrtc_streamer
 
 import cv2
 import mediapipe as mp
