@@ -157,7 +157,7 @@ if Workout_Selector == UpperBody:
 
      st.audio('App/AudioCoach/Messages/Starting_Bent_Over_Back_Rows_Message.mp3',  autoplay= True)
 
-     time.sleep(10)
+     #time.sleep(10)
 
      mp_drawing = mp.solutions.drawing_utils
      mp_pose = mp.solutions.pose
