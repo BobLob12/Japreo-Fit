@@ -339,7 +339,7 @@ if Workout_Selector == UpperBody:
                 counter +=1
                 print(counter)
 
-                 if counter == 1:
+                if counter == 1:
                
                   st.audio('App\pages\Rep_SoundEffects\RepOne.mp3',  autoplay= True)
              
