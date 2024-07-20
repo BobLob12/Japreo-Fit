@@ -159,6 +159,9 @@ if Workout_Selector == UpperBody:
 
      time.sleep(10)
 
+     mp_drawing = mp.solutions.drawing_utils
+     mp_pose = mp.solutions.pose
+
      cap = cv2.VideoCapture(0)
      # Exercise must done on the sides
 
