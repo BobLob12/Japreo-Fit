@@ -443,8 +443,8 @@ if Workout_Selector == UpperBody:
             break
 
 
-    cap.release()
-    cv2.destroyAllWindows()
+     cap.release()
+     cv2.destroyAllWindows()
 
   
   if Start_Button is clicked and Exercise_Selector == Select_Spider_Curls:
